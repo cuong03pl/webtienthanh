@@ -1,0 +1,282 @@
+
+@media ( min-width: 1024px )  { 
+  .mt24 {
+    margin-top: 24px !important;
+  }
+  .mt50 {
+    margin-top: 50px !important;
+  }
+ }
+
+.grid {
+    width: 100%;
+    display: block;
+    padding: 0;
+  }
+  .grid.wide {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+  
+  }
+  
+  .col {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
+  
+  .c-0 {
+    display: none;
+  }
+  
+  .c-1 {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+  }
+  
+  .c-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+  }
+  
+  .c-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  
+  .c-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+  
+  .c-5 {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+  }
+  
+  .c-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  .c-7 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+  }
+  
+  .c-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+  
+  .c-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  
+  .c-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+  }
+  
+  .c-11 {
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+  }
+  
+  .c-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .mt12 {
+    margin-top: 12px;
+  }
+  .mt20 {
+    margin-top: 20px;
+  }
+  .mb20{
+    margin-bottom: 20px;
+  }
+  .mt30 {
+    margin-top: 30px !important;
+  }
+  .mb28 {
+    margin-bottom: 28px;
+
+  }
+  .mb32 {
+    margin-bottom: 32px;
+  }
+  /* tablet */
+
+@media ( max-width: 1023px )  and ( min-width: 740px) {
+  .m0-t {
+    margin: 0;
+  }
+  .mt50-t {
+    margin-top: 50px !important; 
+  }
+  .main {
+    width: 100%;
+  }
+  .wide {
+    max-width: 724px !important;
+    margin:  0 auto;
+  }
+  .col {
+    padding: 12px;
+  }
+  .c-0-t {
+    display: none;
+}
+.c-2_5-t {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.c-3-t {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+}
+.c-6-t {
+    flex: 0 0 50%;
+max-width: 50%;
+}
+.c-full-t {
+  flex: 0 0 100%;
+max-width: 100%;
+}
+.statistical-section {
+  flex-direction: column;
+}
+.statistical-icon img {
+  max-width: 60px;
+} 
+
+.statistical-heading{
+  font-size: 1.7rem;
+}
+.statistical-text {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slider-section::before {
+  padding-bottom: calc(350/1500*100%);
+}
+
+
+.genera-introduce-item iframe{
+  width: 100%;
+}
+
+.contact-btn {
+  text-align: center;
+}
+}
+/* mobile */
+@media ( max-width: 739px )  {  
+  .main {
+    width: 100%;
+  }
+  .wide {
+    max-width: 382px !important;
+  }
+  .justify-around-m {
+    justify-content: space-around;
+
+  }
+  .wrap-m {
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .col {
+    padding:0 6px !important;
+  }
+  .c-0-t {
+    display: none;
+  }
+  
+  .c-6-m {
+      flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .c-full-m {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .m0-m {
+    margin: 0;
+  }
+  .mt10-m{
+    margin-top: 10px !important;
+  }
+  .mt20-m{
+    margin-top: 20px !important;
+  }
+  .mb10-m{
+    margin-bottom: 10px !important;
+  }
+  .mb20-m{
+    margin-bottom: 20px;
+  }
+  .mb24-m{
+    margin-bottom: 24px;
+  }
+  .mt50-m {
+    margin-top: 50px !important;
+  }
+  .statistical-icon {
+    display: none;
+  }
+  .border-right-m {
+    border: 1px solid var(--white-color);
+  }
+  .border-bottom-m {
+    border: 1px solid var(--white-color);
+  }
+  .border-1-m {
+    border: 1px solid var(--white-color);
+  }
+  .slider-section::before {
+    padding-bottom: calc(350/500*100%);
+  }
+  .genera-introduce-item iframe{
+    width: 100%;
+  }
+  .statistical-list{
+    position: relative;
+  }
+  .statistical-list::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: var(--white-color);
+    top: 50%;
+  }
+  .statistical-list::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width:  1px;
+    background: var(--white-color);
+    top: 0;
+    right: 50%;
+  }
+  .statistical-section {
+    text-align: center;
+  }
+
+  .contact-btn a {
+    width: 100%;
+    text-align: center;
+  }
+}

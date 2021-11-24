@@ -1,0 +1,127 @@
+
+.contact-heading {
+    font-size: 2.4rem;
+    
+    
+}
+.contact-link {
+    color: var(--red);
+    font-weight: 500;
+    padding-bottom: 12px;
+    position: relative;
+
+}
+.contact-link::before {
+    content: '';
+    display: block;
+    background: var(--red);
+    height: 2.5px;
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+}
+.contact-sub {
+    font-size: 1.5rem;
+
+}
+
+.contact-input-content {
+    border: solid 1px #cdcdcd;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    background: #fff;
+
+}
+.contact-input-icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #ed1c24;
+    background: #e8e8e8;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 1.5rem;
+
+}
+.contact-input {
+    width: 100%;
+    padding: 0 10px ;
+    border: none;   
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.5rem;
+    
+
+}
+.contact-textarea::placeholder,
+.contact-input::placeholder{
+    color: #333;
+    font-size: 1.5rem;
+    /* line-height: 40px; */
+}
+
+.retype-btn,
+.request-btn {
+    font-size: 1.6rem;
+    background: #9d9d9d;
+    padding: 0px 89px;
+    line-height: 40px;
+    display: inline-block;
+    font-size: 1.6rem;
+    color: var(--white-color);
+    font-weight: 500;
+    border-radius: 4px;
+
+}
+.retype-btn:hover,
+.request-btn:hover {
+    background: var(--red);
+    
+}
+.retype-btn {
+   margin-left: 12px;
+
+
+}
+.contact-textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    resize: none;
+}
+
+.contact-company-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+
+}
+.contact-company-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.contact-company-icon {
+    font-size: 1.4rem;
+    color: var(--red);
+    margin-right: 16px;
+}
+
+.contact-company-text {
+    font-size: 1.4rem;
+    
+}
+.contact-company-link:hover {
+    color: var(--red);
+}
+
+/* map  */
+
+.map-item iframe {
+    width: 100%;
+
+}
